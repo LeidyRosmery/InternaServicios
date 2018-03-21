@@ -1,0 +1,298 @@
+.sope-tools-menu {
+  position: absolute;
+  width: 100%;
+}
+.sope-height-100 {
+  height: 100%;
+}
+label.text-link {
+  display: block;
+  text-align: left;
+  width: 60%;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+  color: #fff;
+  font-family: misoregular;
+  font-size: 2rem;
+}
+.list-menu-letter{
+  text-align: left;
+  display: inline-block;
+  color: rgba(255,255,255,1);
+  font-size: 1.8rem;
+  font-family: misoregular;
+  line-height: 1.3;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 120%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  font-weight: 500;
+}
+a.list-menu-letter:hover{
+  color: #fbd300;
+  text-decoration: none;
+}
+.space-left-menu {
+  padding-left: 7px;
+}
+.display-block {
+  display: block;
+}
+.active > .icon-menu > img {
+  fill: #fbd300 !important;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .sope-tools-menu-u {
+  width: 100%;
+  display: flex;
+  margin-top: -80px;
+}
+.nav .sope-tools-menu-u-2 {
+  width: 100%;
+  display: flex;
+}
+.list {
+  height: 80px;
+  margin: 1px;
+  width: 25%;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.list i.icon-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+
+}
+.list:hover{
+  background-color: #fbd300;
+}
+.list:hover .list-menu-letter {
+  color: #000;
+}
+.list i.icon-menu .svg {
+  width: 60px;
+  height: 50px;
+}
+.active {
+  background-color: #fbd300;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+.active label, .active a {
+  color: #000;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+.modal-open .modal {
+  position: fixed!important;
+  top: 4% !important;
+  width: 100% !important;
+  height: 100vh !important;
+  z-index: 9999 !important;
+}
+.modal-body {
+  width: 90%;
+  margin: auto;
+  padding: 0;
+}
+.scrollbar {
+  overflow-y: scroll;
+  height: 70vh;
+  overflow-x: hidden;
+ }
+
+.style-scroll::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.style-scroll::-webkit-scrollbar-track {
+  border: 1px solid black;
+  background-color: #858585;
+}
+
+.style-scroll::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border: 1px solid black;
+  height: 100px;
+}
+.justify-start {
+  justify-content: flex-start !important;
+}
+button .close{
+  opacity: 1 !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+  height: 44px;
+  position: relative;
+  background: #000;
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+  max-width: 90%;
+}
+.modal-content {
+  background-color: #000000;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+.anchor-modal{
+  font-family: misoregular;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.anchor-modal a{
+  color: #333;
+}
+.option {
+  padding: 10px 0 5px 21%;
+  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out .3s;
+}
+.menu-mobile {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.nav-responsive {
+  height: 50px;
+  background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+.icon-nav-white img{
+  position: absolute;
+  margin-left: 0;
+  width: 16px;
+  height: 16px;
+}
+.svg-style{
+  fill: white;
+}
+.a-blue-style{
+  color:#fff;
+  padding-left:33px;
+  font-family: misoregular;
+  font-size:2.2rem;
+}
+.a-black-style-internal {
+  color: #000;
+  padding: 0 20px;
+  font-family: misoregular;
+  font-size: 2rem;
+}
+.arrow-style{
+  font-size: 3rem;
+}
+
+
+.tools-menu-right {
+  color: #fff;
+}
+.list:hover .tools-menu-right {
+  color: #000;
+}
+/*Hover Menu*/
+.list:hover .icon-menu .svg path, .list:hover .icon-menu .svg rect {
+    fill: #000;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav .sope-tools-menu-u, .nav .sope-tools-menu-u-2 {
+    display: block;
+  }
+  .title-modal-mobile {
+    height: 50px;
+    background-color: #fbd300;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    border: none;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .a-black-style {
+    color: #000;
+    padding-left: 33px;
+    font-family: misoregular;
+    font-size: 2.2rem;
+  }
+  .list {
+    height: 80px;
+    width: 100%;
+  }
+  .sope-arrow {
+    top:32%;
+    left: 15%;
+  }
+  .container-menu-main .glyphicon-menu-left {
+    color: white;
+  }
+  .list i.icon-menu {
+    width: 50%;
+    margin: auto;
+  }
+
+  .title-modal-internal-mobile {
+    height: 50px;
+    background-color: #fbd300;
+    color: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+  }
+  .list-menu-letter {
+    left: 60%;
+  }
+  .submenu-glyphicon-left {
+    font-size: 13px;
+    color:#fff;
+  }
+  .submenu-return {
+    font-size:14px;
+    color:#fff;
+    font-weight:400;
+  }
+  .submenu-button {
+    opacity: 1 !important;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    background: #000;
+    border: none;
+  }
+  .img-mobile-menu {
+    background-image: url(/static/categorias/contenidoEstatico/landings/constructor_alquiler_herramientas_2018/img/line_menu.png);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .sope-tools-menu {
+    z-index: 20;
+  }
+}
